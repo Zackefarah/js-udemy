@@ -74,7 +74,7 @@ holdBtn.addEventListener('click', function () {
     scores[activePlayer];
 
   // 2. Check if score >= 100 otherwise switch player
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 100) {
     diceEl.classList.add('hidden');
     document
       .querySelector(`.player--${activePlayer}`)
